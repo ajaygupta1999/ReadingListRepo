@@ -1,0 +1,10 @@
+server:
+  port: 8443
+  ssl:
+    key-store: classpath:tomcat-server-cert.jks
+    key-store-password: password
+    key-password: password
+
+custom:
+  app-name: ReadingList-App
+  app-port: 8443
